@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/logo.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Horizon Bank | Building Futures, Securing Dreams</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logo.png"
+          alt="HB Logo"
+          class="nav__logo"
+          id="logo"
+          designer="Yasin"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Services</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">About us</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Locate us</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >APPLY NOW</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          Securing
+          <!-- Blue highlight effect -->
+          <span class="highlight">Today,</span>
+          Investing in<br /><span class="highlight">Tomorrow</span>
+        </h1>
+        <h4>Empowering dreams, one transaction at a time</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img
+          src="img/hero1.jpg"
+          class="header__img"
+          alt="bank items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Services</h2>
+        <h3 class="section__header">
+          More than a bank, a partner in your prosperity.
+        </h3>
+      </div>
+
+      <div class="services">
+        <img
+          src="img/digital-lazy.jpg"
+          data-src="img/digital.jpg"
+          alt="Computer"
+          class="services__img lazy-img"
+        />
+        <div class="services__feature">
+          <div class="services__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="services__header">100% digital bank</h5>
+          <p>
+            With our digital platform, you can manage your finances anytime, anywhere. Our user-friendly mobile app and online services offer a comprehensive suite of banking solutions, from instant fund transfers and bill payments to intuitive budgeting tools. We prioritize your security, employing state-of-the-art encryption and authentication methods to ensure your transactions are always safe.
+          </p>
+        </div>
+
+        <div class="services__feature">
+          <div class="services__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="services__header">Watch your money grow</h5>
+          <p>
+            Our digital banking platform is not just about transactions; it's about nurturing your financial growth. Seamlessly manage your funds, invest wisely, and track your progress effortlessly. Your financial future is in good hands – let your money thrive with us.
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          data-src="img/grow.jpg"
+          alt="Plant"
+          class="services__img lazy-img"
+        />
+
+        <img
+          src="img/card-lazy.jpg"
+          data-src="img/card.jpg"
+          alt="Credit card"
+          class="services__img lazy-img"
+        />
+        <div class="services__feature">
+          <div class="services__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="services__header">Free debit card included</h5>
+          <p>
+            We believe in providing you with the tools to access your money effortlessly. Enjoy the convenience of a free debit card, enabling you to make secure transactions, withdrawals, and purchases worldwide. No hidden fees, just financial flexibility at your fingertips.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          Everything as simple as possible, but no simpler.
+        </h3>
+      </div>
+
+      <div class="Features">
+        <div class="Features__tab-container">
+          <button
+            class="btn Features__tab Features__tab--1 Features__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Instant Transfers
+          </button>
+          <button class="btn Features__tab Features__tab--2" data-tab="2">
+            <span>02</span>Instant Loans
+          </button>
+          <button class="btn Features__tab Features__tab--3" data-tab="3">
+            <span>03</span>Instant Closing
+          </button>
+        </div>
+        <div
+          class="Features__content Features__content--1 Features__content--active"
+        >
+          <div class="Features__icon Features__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="Features__header">
+            Tranfser money to anyone, instantly! No fees.
+          </h5>
+          <p>
+            "Seamless and fee-free money transfers are just a click away! At HORIZON Bank, we empower you to send money to anyone, anytime, without the burden of fees. Experience the ease of instant transactions and the freedom to share your wealth without constraints. Your money moves at the speed of your decisions, and with us, there are no hidden charges – just swift, secure, and hassle-free transfers."
+          </p>
+        </div>
+
+        <div class="Features__content Features__content--2">
+          <div class="Features__icon Features__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="Features__header">
+            Buy a home or make your dreams come true, with instant loans.
+          </h5>
+          <p>
+            "Turn your dreams into reality with HORIZON Bank's instant loans. Whether it's buying a home or fulfilling a long-held aspiration, we're here to make it happen. Our quick and hassle-free loan approval process ensures that you get the funds you need when you need them. Make your dreams come true with [Bank Name], where your ambitions meet financial support seamlessly."
+          </p>
+        </div>
+        <div class="Features__content Features__content--3">
+          <div class="Features__icon Features__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="Features__header">
+            No longer need your account? No problem! Close it instantly.
+          </h5>
+          <p>
+            "Life changes, and so do your needs. At HORIZON Bank, we understand. If you no longer need your account, no problem! Close it instantly with our hassle-free process. Your financial journey should adapt with you, and we're here to make transitions easy. Experience the freedom to manage your accounts effortlessly with HORIZON Bank."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">About us</h2>
+        <h3 class="section__header">
+          Crafting Your Financial Legacy.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best financial decision ever!</h5>
+            <blockquote class="testimonial__text">
+              "At Horizon Bank, we stand as a beacon of financial empowerment, committed to shaping a seamless and personalized banking experience for our valued customers. With a legacy of trust and a vision for the future, we have been serving communities with unwavering dedication.<br>
+              Established on the principles of integrity, innovation, and customer-centricity, Horizon Bank is more than just a financial institution – we are your partner in prosperity. Our mission is to redefine the way you experience banking, leveraging cutting-edge technology to provide you with convenient and secure solutions.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">MD Yasin Arafat Shuvo</h6>
+              <p class="testimonial__location">Dhaka, Bangladesh</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Beyond the basics, embracing the future of finance.
+            </h5>
+            <blockquote class="testimonial__text">
+              We believe in transparency, putting your needs first, and fostering lasting relationships. Our team of dedicated professionals is passionate about guiding you through your financial journey, offering tailored solutions to meet your unique goals.<br>
+              At Horizon Bank, we go beyond the ordinary, offering a comprehensive suite of banking services designed to cater to the dynamic needs of today's world. From digital innovations that make banking a breeze to personalized assistance that ensures you're always supported, we are committed to delivering excellence.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Sayed M H</h6>
+              <p class="testimonial__location">Borishal, Bangladesh</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Elevating expectations, exceeding financial horizons.
+            </h5>
+            <blockquote class="testimonial__text">
+              Join us on a journey where your financial well-being takes center stage. Horizon Bank is not just a bank; we are a community, a partner, and a friend on whom you can rely. Experience banking with a difference – experience Horizon Bank."
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Xerxes</h6>
+              <p class="testimonial__location">Noakhali, USN</p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          The best day to join Horizon Bank was yesterday. The second best is
+          today!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Open your free account today!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact us</a>
+        </li>
+      </ul>
+      <img src="img/logo.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright by Md Yasin Arafat Shuvo
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>User Name</label>
+        <input type="text" />
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <label>PIN</label>
+        <input type="number" />
+        <label>Confirm PIN</label>
+        <input type="number" />
+        <button class="btn">Create &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
